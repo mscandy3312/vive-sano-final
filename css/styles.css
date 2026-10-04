@@ -161,6 +161,19 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.logo-img {
+  height: 48px;
+  max-height: 52px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform var(--transition-fast);
+}
+
+.logo:hover .logo-img {
+  transform: scale(1.04);
+}
+
 .logo-badge {
   width: 2.5rem;
   height: 2.5rem;
